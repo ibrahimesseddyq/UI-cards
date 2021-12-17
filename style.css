@@ -1,0 +1,57 @@
+*{
+
+    box-sizing: border-box;
+}
+.image{
+    border-radius: 12px;
+    width: 100%;
+    
+
+}
+.author{
+    text-align: left;
+    font: normal normal normal 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #FF5470;
+    opacity: 1;
+}
+.text{
+    text-align: left;
+    font: normal normal normal 18px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #00214D;
+    opacity: 1;
+}
+.title{
+    text-align: left;
+    font: normal normal bold 24px/29px Montserrat;
+    letter-spacing: 0px;
+    color: #00214D;
+    opacity: 1;
+}
+.item{
+    background: #F2F4F6 0% 0% no-repeat padding-box;
+    box-shadow: 10px 7px 18px #0000001A;
+    border-radius: 18px;
+    opacity: 1;
+}
+.cont{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 30px 15px;
+    width: 60%;
+
+
+}
+.all{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:600px) {
+    .cont{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+}
